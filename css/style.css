@@ -16,5 +16,36 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
+header img{
+	border:5px solid rgb(160, 169, 165);
 
+}
+h1{
+		color: rgb(160, 169, 165);
+		font-size: 45px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		border-bottom:1px solid grey;
+		margin-bottom: 3px;
+		transition: background-color 0.5s ease;
+}
+h2 {
+	color: rgb(118, 127, 133);
+	padding-top: 20px;
+}
 /* Write all remaining styles here */
+
+.Press img{
+	border: 5px solid rgb(210, 210, 208);
+}
+.Press img:hover {
+	border: 5px solid rgb(132, 137, 134);
+	cursor: pointer;
+}
+
+footer{
+	margin-top: 20px;
+	text-align: end;
+	padding-right: 10px;
+	color: grey;
+}
